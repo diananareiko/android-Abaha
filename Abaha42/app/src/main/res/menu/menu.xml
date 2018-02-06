@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newad"
+        android:icon="@drawable/ic_newad"
+
+        android:orderInCategory="2"
+        android:title="Item"
+        app:showAsAction="always"
+
+        />
+    <item
+        android:id="@+id/mymenu"
+        android:icon="@drawable/ic_menu"
+        android:orderInCategory="4"
+        android:title="Item"
+        app:showAsAction="always"
+
+
+        />
+    <item
+        android:id="@+id/registretion"
+        android:icon="@drawable/ic_registretion"
+        android:orderInCategory="3"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="1"
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
+</menu>

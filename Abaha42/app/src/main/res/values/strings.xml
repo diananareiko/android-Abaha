@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Abaha</string>
+    <string name="heading">Heading</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="town">Town</string>
+    <string name="newAd">New ad</string>
+    <string name="check_in">Check in</string>
+    <string name="new_ad">New ad</string>
+    <string name="navigation">navigation</string>
+    <string name="registretionHeading">Зарегистрируйтесь, чтобы продавать и покупать свои товары и услуги.</string>
+    <string-array name="town">
+        <item>Минск</item>
+        <item>Брест</item>
+        <item>Гродно</item>
+        <item>Гомель</item>
+        <item>Витебск</item>
+        <item>Могилёв</item>
+    </string-array>
+</resources>

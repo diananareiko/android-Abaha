@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.abaha42.Registration">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:paddingTop="20dp"
+            android:src="@drawable/ic_heart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:paddingTop="60dp"
+            android:text="Зарегистрируйтесь, чтобы"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:paddingTop="75dp"
+            android:text="продавать и покупать свои"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:paddingTop="90dp"
+            android:text="товары и услуги"
+            android:textSize="17dp" />
+        <EditText
+            android:textSize="14dp"
+            android:paddingLeft="8dp"
+            android:id="@+id/inputSearchEditText"
+            android:layout_marginBottom="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="start"
+            android:gravity="left|center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="120dp"
+            android:hint="Имя и фамилия"
+            android:inputType="text"
+            android:background="@drawable/edit_text_style"/>
+        <EditText
+            android:textSize="14dp"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="start"
+            android:gravity="left|center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="165dp"
+            android:hint="Мобильный телефон"
+            android:inputType="phone"
+            android:background="@drawable/edit_text_style"/>
+
+        <EditText
+            android:textSize="14dp"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="start"
+            android:gravity="left|center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="210dp"
+            android:hint="Электронная почта"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text_style"/>
+
+
+
+        <EditText
+            android:textSize="14dp"
+            android:paddingLeft="8dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:ellipsize="start"
+            android:gravity="left|center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="255dp"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_style"/>
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/roundcorner"
+            android:text="Регистрация"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="Есть аккаунт?"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/entrance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="55dp"
+            android:text="Вход"
+            android:textColor="#3473d8" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="ИЛИ"
+        app:layout_constraintBottom_toTopOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

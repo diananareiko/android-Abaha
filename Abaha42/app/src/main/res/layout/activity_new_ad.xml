@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.example.asus.abaha42.NewAd">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:paddingTop="20dp"
+            android:src="@drawable/ic_red_heart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:paddingTop="60dp"
+            android:text="Заполните, чтобы продать свой"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:paddingTop="75dp"
+            android:text="товар или услугу"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/grayframe"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:height="20dp"
+                android:background="@drawable/button_choose"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Выбрать файл"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:textSize="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Файл не выбран"
+                android:textColor="#000" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Название товара или услуги"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/edit_text_style"
+            android:gravity="left|top"
+            android:hint="Описание"
+            android:minHeight="170dp"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/edit_text_style"
+            android:hint="Цена"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+
+        <EditText
+            android:textColorHint="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="495dp"
+            android:background="@drawable/edit_text_style"
+            android:gravity="left|center"
+            android:hint="Выберите категорию..."
+            android:inputType="text"
+            android:minHeight="40dp"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+        <EditText
+            android:textColorHint="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="545dp"
+            android:background="@drawable/edit_text_style"
+            android:gravity="left|center"
+            android:hint="Выберите город..."
+            android:inputType="text"
+            android:minHeight="40dp"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/edit_text_style"
+            android:gravity="left|center"
+            android:hint="эл.почта"
+            android:inputType="textEmailAddress"
+            android:minHeight="40dp"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="670dp"
+            android:background="@drawable/edit_text_style"
+            android:gravity="left|center"
+            android:hint="Имя"
+            android:minHeight="40dp"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="720dp"
+            android:background="@drawable/edit_text_style"
+            android:gravity="left|center"
+            android:hint="+375.. ... .. .."
+            android:minHeight="40dp"
+            android:paddingLeft="8dp"
+            android:textSize="14dp" />
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="770dp"
+            android:background="@drawable/roundcorner"
+            android:text="Готово"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+    </android.support.v7.widget.CardView>
+</android.support.v4.widget.NestedScrollView>
